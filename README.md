@@ -44,7 +44,7 @@ An error is returned if:
 
 ###  Expose HMAC service credentials as environment variables
 
-Use the `set_aws_creds` script to retrieve the HMAC credentials of a pre-configured Cloud Object Storage instance service key.
+Use the `set_aws_creds` script to retrieve the HMAC credentials of a pre-configured Cloud Object Storage (COS) instance service key.
 
 #### Usage
 
@@ -66,6 +66,6 @@ export AWS_SECRET_ACCESS_KEY=b...5
 An error is returned if:
  - the specified service key is not defined
  - the specified service key exists but is not a COS service key
- - the sepcified COS service key does not include HMAC credentials
+ - the specified COS service key does not include HMAC credentials
 
  ---
